@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: "Craig W. Valentine, D.M.D., P.A."
 locale: en_US
-description: Describe your website here.
+description: "Cosmetic & Family Dentistry"
 logo: site-logo.png
 search: true
-url: 
+url:
 
 
 # Jekyll configuration
@@ -32,7 +32,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: "Craig W. Valentine, D.M.D. P.A."
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
@@ -49,5 +49,5 @@ owner:
     analytics:
     verify:
     ad-client:
-    ad-slot: 
+    ad-slot:
   bing-verify:
