@@ -1,18 +1,39 @@
 ---
-layout: page
+layout: base
 title: Craig W. Valentine, D.M.D., P.A.
 subtitle: "Cosmetic & Family Dentistry"
 image:
-  feature: valentine-staff.jpg
+  feature:
 
 ---
-<h1>
-<h2>A Dental Practice Where Patients Come First</h2>
+<div id="main" role="main">
+  <article class="entry">
+    <div class="rotator">
+      <div class="cycle-slideshow">
+        <img src="/images/valentine-staff.jpg" alt="{{ page.title }}">
+        <img src="/images/angel-tree.png" alt="{{ page.title }}">
+        <img src="/images/so-simple-sample-image-2.jpg" alt="{{ page.title }}">
+        <img src="/images/so-simple-sample-image-3.jpg" alt="{{ page.title }}">
+      </div>
+    </div>
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
+        {% if page.subtitle %}<h2 class="entry-subtitle">{{ page.subtitle }}</h2>{% endif %}
+      </header>
+      <div class="entry-content">
+        <h1>
+        <h2>A Dental Practice Where Patients Come First</h2>
 
-<p>Dr. Craig Valentine and his skilled and caring staff welcome you to our practice. We invite you to learn how we assist in creating and maintaining a beautiful and healthy smile for a lifetime.</p>
+        <p>Dr. Craig Valentine and his skilled and caring staff welcome you to our practice. We invite you to learn how we assist in creating and maintaining a beautiful and healthy smile for a lifetime.</p>
 
-<p>Our patients love feeling like part of the family every time they visit. Featuring quality treatment and the best service possible, we see patients from throughout central Florida for routine family dentistry and cosmetic smile restoration.</p>
+        <p>Our patients love feeling like part of the family every time they visit. Featuring quality treatment and the best service possible, we see patients from throughout central Florida for routine family dentistry and cosmetic smile restoration.</p>
 
-<h2>Our Team is Here Because Your Smile Matters!</h2>
+        <h2>Our Team is Here Because Your Smile Matters!</h2>
 
-<p>If you have any questions about procedures or would like to make an appointment with Dr. Valentine, feel free to call us at (863) 646-8511 or contact us <a href="mailto:drvalentine.info@gmail.com">by email at drvalentine.info@gmail.com</a>.</p>
+        <p>If you have any questions about procedures or would like to make an appointment with Dr. Valentine, feel free to call us at (863) 646-8511 or contact us <a href="mailto:drvalentine.info@gmail.com">by email at drvalentine.info@gmail.com</a>.</p>
+
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->

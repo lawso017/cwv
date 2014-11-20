@@ -302,6 +302,13 @@ span + .entry-title {
 		@include clearfix;
 	}
 }
+.rotator {
+	background-color: #eee;
+	.cycle-slideshow {
+		margin: auto;
+		max-width: 800px;
+	}
+}
 .entry-content {
 	@include span-columns(12);
 	p:first-child {
