@@ -1,53 +1,112 @@
-# Site wide configuration
+# Blog Information
+title:        Craig W. Valentine DMD PA
+subtitle:     "Cosmetic & Family Dentistry"
+cover_image:  blog-cover.jpg
+logo:         logo.png
 
-title: "Craig W. Valentine, D.M.D., P.A."
-locale: en_US
-description: "Cosmetic & Family Dentistry"
-logo: site-logo.png
-search: true
-url:
+# Company information
+# company:      Long Run VB
+# facebook:     sendtoinc
+# twitter:      longrunvb
+# gplus:        '101183822199340201470'
+# tagline:      "Perform better, avoid injury, have fun"
 
+# Comments
+disqus:
+  # Eg. "exampleblog" Set to false to disable comments
+  # shortname:  longrunvb
 
-# Jekyll configuration
+# Sharing settings
+sharing:
+  twitter:    true
+  facebook:   false
+  gplus:      false
+  hn:         false
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
+# Analytics
+analytics:
+  # google: true # Add tracking code in _includes/_google-analytics.html
+
+# Google Fonts
+# eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+google_font: 'Droid+Sans:400,700'
+
+# Setup your fonts, colors etc at _assets/stylesheets/main.scss
+
+# Jekyll basics
+name:         Craig W Valentine DMD PA
+url:          http://www.drcraigvalentine.com/
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     [tasks, README, Gemfile, 'Gemfile.lock']
+timezone:    nil
+
+# Show future posts
+future:      false
+show_drafts: nil
+limit_posts: 0
+hilighter:    pygments
+
+relative_permalinks: true
+
+permalink:     pretty
+paginate_path: 'articles/page:num'
+paginate: 10
+
+excerpt_separator: "<!-- more -->"
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+lsi:         false
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..2
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
 
+redcloth:
+  hard_breaks: true
 
-# Site owner
-owner:
-  name: "Craig W. Valentine, D.M.D. P.A."
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/rss.xml"
+        - "/triangle/index.html"
+    include_posts:
+        - "/articles/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
