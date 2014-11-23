@@ -34,7 +34,7 @@ google_font: 'Droid+Sans:400,700'
 # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 # Jekyll basics
-name:         Craig W Valentine DMD PA
+name:         "Craig W. Valentine, D.M.D., P.A."
 url:          http://www.drcraigvalentine.com/
 source:      .
 destination: ./_site
