@@ -3,7 +3,7 @@ layout: base
 ---
 <header class="main-header">
     <div class="container">
-        <h1 class="page-title">Patient Center</h1>
+        <h1 class="page-title">{{ page.title }}</h1>
     </div>
 </header>
 
@@ -11,10 +11,15 @@ layout: base
     <div class="row">
         <div class="col-md-12">
             <section class="css-section">
-                <h2 class="section-title no-margin-top">{{ page.title }}</h2>
                 {{ content }}
             </section>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+            <section class="css-section">
+              <p class="lead lead-lg text-center primary-color margin-bottom wow fadeInDown">Whether you are looking for preventive or restorative care or a beautiful new smile, we would like to take this opportunity to thank you for choosing our practice for your dental care.</p>
+            </section>
+        </div>
+    </div>
 </div>
-<p class="lead lead-lg text-center primary-color margin-bottom wow fadeInDown">Whether you are looking for preventive or restorative care or a beautiful new smile, we would like to take this opportunity to thank you for choosing our practice for your dental care.</p>
