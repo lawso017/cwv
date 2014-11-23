@@ -5,7 +5,13 @@ cover_image:  blog-cover.jpg
 logo:         logo.png
 
 # Company information
-# company:      Long Run VB
+name:         "Craig W. Valentine, D.M.D., P.A."
+address:      310 Highlands Drive East
+city:         Lakeland
+state:        FL
+zip:          33801
+phone:        863.646.8511
+fax:          863.709.0703
 # facebook:     sendtoinc
 # twitter:      longrunvb
 # gplus:        '101183822199340201470'
@@ -34,7 +40,6 @@ google_font: 'Droid+Sans:400,700'
 # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 # Jekyll basics
-name:         "Craig W. Valentine, D.M.D., P.A."
 url:          http://www.drcraigvalentine.com/
 source:      .
 destination: ./_site

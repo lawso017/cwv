@@ -1,0 +1,50 @@
+---
+title: Frequently Asked Questions
+layout: patient_center
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="section-title">Questions Answered</h2>
+            <div class="panel-group" id="accordion1">
+                {% for question in site.data.questions %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-heading-link">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse{{ question.number }}1">
+                                    {{ question.number }}. {{ question.title }}
+                                </a>
+                        </div>
+                        <div id="collapse{{ question.number }}1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                {{ question.answer }}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div> <!-- panel-group -->
+        </div> <!-- col-md-8 -->
+        <div class="col-md-4">
+            <h2 class="section-title">Questions Asked</h2>
+            <div id="wufoo-z1iiif4602n07gp">
+                Fill out my <a href="https://drcraigvalentine.wufoo.com/forms/z1iiif4602n07gp">online form</a>.
+            </div>
+            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+            <script type="text/javascript">var z1iiif4602n07gp;(function(d, t) {
+            var s = d.createElement(t), options = {
+            'userName':'drcraigvalentine',
+            'formHash':'z1iiif4602n07gp',
+            'autoResize':true,
+            'height':'517',
+            'async':true,
+            'host':'wufoo.com',
+            'header':'show',
+            'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { z1iiif4602n07gp = new WufooForm();z1iiif4602n07gp.initialize(options);z1iiif4602n07gp.display(); } catch (e) {}};
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');</script>
+        </div>
+    </div> <!-- row -->
+</div> <!-- container -->

@@ -3243,7 +3243,7 @@ a.thumbnail.active {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-brand {
-    font-size: 1.7em;
+    font-size: 1.5em;
     margin-left: 60px;
   }
 
@@ -6323,6 +6323,7 @@ a.feature-icon {
 .header-full-title {
   float: left;
   overflow: hidden;
+  margin-top: 15px;
   padding-left: 85px;
   background-image: url("#{$img-path}/#{$dir-logo}/logo-big.png");
   background-repeat: no-repeat;

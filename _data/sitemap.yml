@@ -1,0 +1,10 @@
+- name: Home
+  url: /
+- name: Information
+  url: /patient_center/practice_information/
+- name: Forms
+  url: /patient_center/new_patient_forms/
+- name: Technology
+  url: /patient_center/technology/
+- name: FAQs
+  url: /patient_center/faqs/

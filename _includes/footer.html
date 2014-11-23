@@ -4,27 +4,31 @@
             <div class="col-md-4">
                 <h3 class="footer-widget-title">Sitemap</h3>
                 <ul class="list-unstyled three_cols">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/patient_center/new_patient_forms/">Forms</a></li>
-                    <li><a href="portfolio_topvar.html">Works</a></li>
-                    <li><a href="page_timeline_left.html">Timeline</a></li>
-                    <li><a href="page_pricing.html">Pricing</a></li>
-                    <li><a href="page_about2.html">About Us</a></li>
-                    <li><a href="page_team.html">Our Team</a></li>
-                    <li><a href="page_services.html">Services</a></li>
-                    <li><a href="page_support.html">FAQ</a></li>
-                    <li><a href="page_login_full.html">Login</a></li>
-                    <li><a href="page_contact.html">Contact</a></li>
+                    {% for link in site.data.sitemap %}
+                        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                    {% endfor %}
                 </ul>
                 <h3 class="footer-widget-title">Subscribe</h3>
-                <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email Adress">
-                    <span class="input-group-btn">
-                        <button class="btn btn-ar btn-primary" type="button">Subscribe</button>
-                    </span>
-                </div><!-- /input-group -->
+                <p>We'll provide helpful information and special offers for your dental health.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="//drcraigvalentine.us4.list-manage.com/subscribe/post?u=af89a8a4301425b4df772eb66&amp;id=5c6dc601da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="mc-field-group input-group">
+                            <input placeholder="Email Address" type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-ar btn-primary">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_af89a8a4301425b4df772eb66_5c6dc601da" tabindex="-1" value="">
+                        </div>
+                    </form>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+                </div>
             </div>
             <div class="col-md-4">
                 <div class="footer-widget">
@@ -53,22 +57,19 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="footer-widget">
-                    <h3 class="footer-widget-title">Recent Works</h3>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                            <a href="#" class="thumbnail"><img src="/images/demo/wf1.jpg" class="img-responsive" alt="Image"></a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                            <a href="#" class="thumbnail"><img src="/images/demo/wf2.jpg" class="img-responsive" alt="Image"></a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                            <a href="#" class="thumbnail"><img src="/images/demo/wf3.jpg" class="img-responsive" alt="Image"></a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
-                            <a href="#" class="thumbnail"><img src="/images/demo/wf4.jpg" class="img-responsive" alt="Image"></a>
-                        </div>
-                    </div>
+                <div class="footer-widget contact-info">
+                    <h3 class="footer-widget-title">Contact</h3>
+                    <strong>{{ site.name }}</strong><br>
+                    {% include contact.html %}
+
+                    <!-- Business Hours -->
+                    <h3 class="footer-widget-title">Business Hours</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Monday-Thursday:</strong> 7:30am to 5:30pm</li>
+                        <li><strong>Friday:</strong> 7:30am to 4:30pm</li>
+                        <li><strong>Saturday:</strong> Closed</li>
+                        <li><strong>Sunday:</strong> Closed</li>
+                    </ul>
                 </div>
             </div>
         </div> <!-- row -->
