@@ -9,33 +9,21 @@
                     {% endfor %}
                 </ul>
                 <h3 class="footer-widget-title">Subscribe</h3>
-                <p>We'll provide helpful information and special offers for your dental health.</p>
+                <p>Our email newsletter provides helpful information and special offers for your dental health.</p>
                 {% include mailchimp.html %}
             </div>
             <div class="col-md-4">
                 <div class="footer-widget">
-                    <h3 class="footer-widget-title">Recent Post</h3>
-                    <div class="media">
-                        <a class="pull-left" href="#"><img class="media-object" src="/images/demo/m2.jpg" width="75" height="75" alt="image"></a>
-                        <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></h4>
-                            <small>August 18, 2013</small>
+                    <h3 class="footer-widget-title">Recent Newsletters</h3>
+                    {% for newsletter in site.data.newsletters limit:3 %}
+                        <div class="media">
+                            <a class="pull-left" href="#"><img class="media-object" src="{{ newsletter.image }}" width="75" height="75" alt="image"></a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h4>
+                                <small>{{ newsletter.date }}</small>
+                            </div>
                         </div>
-                    </div>
-                    <div class="media">
-                        <a class="pull-left" href="#"><img class="media-object" src="/images/demo/m11.jpg" width="75" height="75" alt="image"></a>
-                        <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></h4>
-                            <small>September 14, 2013</small>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <a class="pull-left" href="#"><img class="media-object" src="/images/demo/m4.jpg" width="75" height="75" alt="image"></a>
-                        <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Lorem ipsum Dolor cupidatat minim adipisicing et fugiat</a></h4>
-                            <small>October 9, 2013</small>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
             <div class="col-md-4">

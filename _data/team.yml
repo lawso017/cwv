@@ -1,40 +1,65 @@
 # Team
 
 - name: "Craig Valentine, D.M.D."
-  picture: http://www.drcraigvalentine.com/valentinepic.jpg
+  title:
+  picture: team-craig.jpg
   bio: |
-    <p><em>Experienced, Professional and Caring</em><br>Dr. Valentine and his wife Beverly have two children and five grandchildren. Dr. Valentine has been in practice in Lakeland for 30 years and is very active in the community.</p>
-    <p>Awards & Recognition: Fellowship awarded by Academy of General Dentistry (FAGD), Member of Florida Dental Association, American Dental Association, Academy of General Dentistry, American Orthodontic Society, and Academy of Operative Dentistry.</p>
+    <p>Dr. Valentine and his wife Beverly have two children and five grandchildren. Dr. Valentine has been in practice in Lakeland for 30 years and is very active in the community.</p>
+    <p>He has earned a fellowship awarded by Academy of General Dentistry (FAGD), and is a member of the Florida Dental Association, American Dental Association, Academy of General Dentistry, American Orthodontic Society, and Academy of Operative Dentistry.</p>
     <p>Dr. Valentine has been published as well as an expert lecturer for many dental association meetings.</p>
 
-- name: "Alice Plumlee, R.D.H."
-  picture: http://www.drcraigvalentine.com/alicepic.jpg
+- name: "Aimee Fellner, R.D.H."
+  title: Dental Hygienist
+  picture: team-aimee.jpg
   bio: |
-    <p>A Lakeland native, Alice received her hygiene diploma from Tallahassee C.C. She has been in dentistry for 30 years, and she still loves hygiene and getting to know her patients. Alice joined Dr. Valentine in 2009 and loves traveling and going to the beach.</p>
+    <p>A graduate of St. Petersburg College, Aimee has been practicing Dental Hygiene for 25 years.  She brings her love of taking care of patients and her dental expertise to our office.</p>
+    <p>Aimee is a proud mom of two college-aged sons. Spending time with her family is her favorite pastime. She is involved in her church, works out regularly at Gold’s Gym, likes to travel, relax at the beach, and shoot skeet.</p>
+
+- name: "Alice Plumlee, R.D.H."
+  title: Dental Hygienist
+  picture: team-alice.jpg
+  bio: |
+    <p>A Lakeland native, Alice knew when she was 17 years old that she wanted to pursue a career in the dental field. After working as a dental hygienist for over 32 years, she is certain she made to right choice! She loves sharing with patients how to obtain optimal dental health and teaching what tools and techniques are needed to maintain a healthy mouth. Alice joined Dr. Valentine in 2009 and looks forward to getting to know her patients better in the years ahead.</p>
+    <p>Happily married for 27 years, she loves spending time with her husband, 2 daughters and one granddaughter. Alice is an active member of Lake Gibson Church of the Nazarene and volunteers with at risk youth. In her leisure time, she enjoys reading, kayaking, bicycling, traveling, and the beach.</p>
 
 - name: "Danielle Skillman, R.D.H."
-  picture: http://www.drcraigvalentine.com/daniellepic.jpg
+  title: Dental Hygienist
+  picture: team-danielle.jpg
   bio: |
-    <p>Born in Lakeland and a graduate of Lake Gibson H.S., Danielle realized her dream of becoming a Registered Dental Hygienist after receiving her A.S. from Hillsborough Community College in 2011. She and fiance John, boyfriend of 8 years, will reside in Lakeland after their wedding.</p>
-    <p>Danielle always strives to make her patients feel as comfortable as possible during their visits while providing quality care. In her spare time she enjoys working out in the gym, spending time outdoors, and spending as much time as possible with her family.</p>
+    <p>Born in Lakeland and a graduate of Lake Gibson H.S., Danielle realized her dream of becoming a Registered Dental Hygienist after receiving her A.S. from Hillsborough Community College in 2011. Danielle always strives to make her patients feel as comfortable as possible during their visits while providing quality care.</p>
+    <p>She and her husband live in Lakeland and enjoy working out in the gym, being outdoors, and spending as much time as possible with her family.</p>
 
 - name: "Jill Tuman, R.D.H."
-  picture: http://www.drcraigvalentine.com/Jill2.jpg
+  title: Dental Hygienist
+  picture: team-jill.jpg
   bio: |
-    <p>Jill Tuman was raised in Lakeland and in Gainesville. She is married to Brant, and has a 16-year-old stepson, A. J. Jill earned her B.S. degree from the University of Florida in criminal justice and her A.S. in Dental Hygiene from Santa Fe Community College. She enjoys traveling, reading, and getting to know her patients.</p>
+    <p>Raised in Lakeland and in Gainesville Jill, her husband Brant, and her 19-year-old stepson A.J. have made Lakeland their home for many years now. Jill earned her B.S. degree from the University of Florida in Criminal Justice and her A.S. in Dental Hygiene from Santa Fe Community College. Since 2012 she has brought her 17 years of expertise to the practice.</p>
+    <p>Jill is a member of the Lakeland Chamber of Commerce and Lakeland Business Leaders Association. She is also an active member of Shepherd Road Presbyterian Church. In her free time, Jill enjoys traveling, reading, and weight training.</p>
 
-- name: "Marty Peters, Dental Assistant"
-  picture: http://www.drcraigvalentine.com/martypic.jpg
+- name: "Marty Peters"
+  title: Dental Assistant
+  picture: team-marty.jpg
   bio: |
-    <p>A Mulberry High and Concorde Career Institute graduate with a C.R.D.A, Marty has been an assistant with Dr. Valentine for 15 years. She is a Lakeland native, happily married with 2 girls and loves the beach, Rays baseball games, and shopping. Marty says, "Not a day goes by that I do not love seeing our patients and making them happy. After all, everyone deserves a great smile."</p>
+    <p>A Mulberry High and Concorde Career Institute graduate with a C.R.D.A, Marty has been an assistant with Dr. Valentine since 1997.</p>
+    <p>She is a Lakeland native, happily married with 2 girls and loves the beach, Rays baseball games, and shopping. Marty says, "Not a day goes by that I don’t love seeing our patients and making them happy. After all, everyone deserves a great smile."</p>
 
-- name: "Cindy Armstrong, Office Financial Coordinator"
-  picture: http://www.drcraigvalentine.com/cindypic.jpg
+- name: "Tara McNabb"
+  title: Treatment Coordinator
+  picture: team-tara.jpg
   bio: |
-    <p>Our practice's Office Financial Coordinator, Cindy is a C.R.D.A. graduate of Concorde Career Institute. Raised in Lakeland and with Dr. Valentine for more than 16 years, she is married with 2 children and enjoys spending time with her family. One of her greatest joys at Dr. Valentine's office has been meeting and getting to know our wonderful patients.</p>
+    <p>Our Patient Treatment Coordinator, Tara was born in Alaska and raised in Winter Haven. She received her A.A. in business from Polk State College.  Working with dental patients for 8 years now and at our office since 2009, Tara enjoys building relationships with patients and assisting them with dental treatment plans.</p>
+    <p>Tara lives in Winter Haven, loves music, movies, and the spending time at the beach.</p>
 
-- name: "Tara McNabb, Treatment Coordinator"
-  picture: http://www.drcraigvalentine.com/tarapic.jpg
+- name: Chelsea Giuliano
+  title: Scheduling Coordinator
+  picture: team-chelsea.jpg
   bio: |
-    <p>Our Patient Treatment Coordinator, Tara was born in Alaska and raised in Winter Haven. She received her A.A. in business from Polk State College. A Lakeland resident who has been in dentistry for 5 years and with Dr. Valentine since September of 2009; she loves music, movies, and the beach.</p>
+    <p>Originally from LA, California, Chelsea moved to Florida with her family. Since 2005 she has worked in the dental field. She believes the best things about Dr. Valentine’s practice are the relationships established between co-workers and patients and the focus on creating a family friendly environment.</p>
+    <p>Chelsea and her daughter love their trips to Disney, their two dogs, playing at the beach, bowling and attending church.</p>
+
+- name: "Cindy Armstrong"
+  title: Office Financial Coordinator
+  picture: team-cindy.jpg
+  bio: |
+    <p>Our practice's Office Financial Coordinator, Cindy is a C.R.D.A. graduate of Concorde Career Institute. Raised in Lakeland and with Dr. Valentine since 1996, she is married with 2 children and enjoys spending time with her family. She is active in her church and loves relaxing at the beach. One of her greatest joys at Dr. Valentine's office is working with a great team and getting to know the wonderful patients.</p>
 

@@ -3577,6 +3577,7 @@ a.thumbnail.active {
 
   .footer-widget .media {
     margin-bottom: 10px;
+    min-height: 75px;
   }
 
   .footer-widget .media .media-heading {
@@ -6359,6 +6360,9 @@ a.feature-icon {
   position: relative;
 }
 
+.top-nav address {
+  margin-top: 10px;
+}
 
 .top-nav .dropdown {
   display: inline-block;

@@ -12,10 +12,9 @@ state:        FL
 zip:          33801
 phone:        863.646.8511
 fax:          863.709.0703
-# facebook:     sendtoinc
-# twitter:      longrunvb
-# gplus:        '101183822199340201470'
-# tagline:      "Perform better, avoid injury, have fun"
+rss:          "http://us4.campaign-archive1.com/feed?u=af89a8a4301425b4df772eb66&id=5c6dc601da"
+facebook:     "#"
+yelp:         "#"
 
 # Comments
 disqus:
@@ -32,12 +31,6 @@ sharing:
 # Analytics
 analytics:
   # google: true # Add tracking code in _includes/_google-analytics.html
-
-# Google Fonts
-# eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-google_font: 'Droid+Sans:400,700'
-
-# Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 # Jekyll basics
 url:          http://www.drcraigvalentine.com/

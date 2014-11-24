@@ -8,3 +8,7 @@
   url: /patient_center/technology/
 - name: FAQs
   url: /patient_center/faqs/
+- name: Team
+  url: /our_team/
+- name: Services
+  url: /our_services/
