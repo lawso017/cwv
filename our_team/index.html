@@ -1,0 +1,27 @@
+---
+title: Our Team
+layout: page
+---
+<div class="container">
+  <section class="css-section">
+      <div class="row">
+        {% for person in site.data.team %}
+          <div class="col-md-12">
+              <section>
+                  <div class="panel panel-default  animated fadeInDown animation-delay-8">
+                      <div class="panel-body">
+                          <h3 class="section-title no-margin-top">{{ person.name }} <small class="pull-right">{{ person.title }}</small><div class="clearfix"></div></h3>
+                          <div class="clearfix"></div>
+                          <img src="/images/{{ person.picture }}" alt="" class="alignleft imageborder">
+                          <div class="no-margin-top">
+                            {{ person.bio }}
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </div>
+              </section>
+          </div>
+        {% endfor %}
+      </div>
+  </section>
+</div>

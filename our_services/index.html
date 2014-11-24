@@ -1,0 +1,21 @@
+---
+title: Our Services
+layout: page
+---
+<div class="container">
+  <section class="css-section">
+      {% for service in site.data.services %}
+        <div class="border-box">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="content-box-title">{{ service.name }}</h4>
+                    <div class="text-left">
+                      {{ service.summary }}
+                      {{ service.detail }}
+                    </div>
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+  </section>
+</div>
