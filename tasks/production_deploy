@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-rsync -avzr --delete -e "ssh -p 51939" _site/ williamlawson@108.166.109.88:/var/www/localhost/htdocs/cwv
+rsync -avzr --delete -e "ssh -p 51939" _site/ developer@52.91.131.200:/var/www/localhost/htdocs/cwv
