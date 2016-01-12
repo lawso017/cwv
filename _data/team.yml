@@ -16,13 +16,6 @@
     <p>She returned to Florida to complete her residency in Advanced Education in General Dentistry through the University of Florida in St. Petersburg, specializing in implant dentistry, oral surgery, endodontics, and advanced prosthodontics.</p>
     <p>After being away in Virginia for 8 years, she is thankful to be back home in the state of Florida near family and friends, and is excited to serve the Lakeland community with her advanced training in general and cosmetic dentistry.</p>
 
-- name: "Aimee"
-  title: Dental Hygienist
-  picture: team-aimee.jpg
-  bio: |
-    <p>A graduate of St. Petersburg College, Aimee has been practicing Dental Hygiene for 25 years.  She brings her love of taking care of patients and her dental expertise to our office.</p>
-    <p>Aimee is a proud mom of two college-aged sons. Spending time with her family is her favorite pastime. She is involved in her church, works out regularly at Gold’s Gym, likes to travel, relax at the beach, and shoot skeet.</p>
-
 - name: "Alice"
   title: Dental Hygienist
   picture: team-alice.jpg
@@ -51,6 +44,13 @@
     <p>A Mulberry High and Concorde Career Institute graduate with a C.R.D.A, Marty has been an assistant with Dr. Valentine since 1997.</p>
     <p>She is a Lakeland native, happily married with 2 girls and loves the beach, Rays baseball games, and shopping. Marty says, "Not a day goes by that I don’t love seeing our patients and making them happy. After all, everyone deserves a great smile."</p>
 
+- name: "Nicole"
+  title: Scheduling Coordinator
+  picture: coming-soon.jpg
+  bio: |
+    <p>Unusual as it may seem, Nicole always enjoyed going to the dentist as a child, which eventually led her down the career path to become an Expanded Functions Dental Assistant in 1996. She also attended Hillsborough Community College form 2006-2008 for Health Sciences.</p>
+    <p>Nicole has now transitioned to the business aspect of the dental profession. She strives to build relationships with patients and finds earning their trust important and rewarding. Nicole has a passion for writing and loves spending time with family and her English Bulldog Hoola.</p>
+
 - name: "Tara"
   title: Treatment Coordinator
   picture: team-tara.jpg
@@ -58,12 +58,12 @@
     <p>Our Patient Treatment Coordinator, Tara was born in Alaska and raised in Winter Haven. She received her A.A. in business from Polk State College.  Working with dental patients for 8 years now and at our office since 2009, Tara enjoys building relationships with patients and assisting them with dental treatment plans.</p>
     <p>Tara lives in Winter Haven, loves music, movies, and the spending time at the beach.</p>
 
-- name: Chelsea
-  title: Scheduling Coordinator
-  picture: team-chelsea.jpg
+- name: "Stephanie"
+  title: Dental Assistant
+  picture: team-stephanie.jpg
   bio: |
-    <p>Originally from LA, California, Chelsea moved to Florida with her family. Since 2005 she has worked in the dental field. She believes the best things about Dr. Valentine’s practice are the relationships established between co-workers and patients and the focus on creating a family friendly environment.</p>
-    <p>Chelsea and her daughter love their trips to Disney, their two dogs, playing at the beach, bowling and attending church.</p>
+    <p>A Florida native, Stephanie joins our practice as Dr. Phillip's dental assistant. Stephanie is currently a student at St. Petersburg College working to obtain her Bachelors Degrees in Science in hopes of applying to dental school soon.</p>
+    <p>Outside of dentistry, Nicole enjoys kayaking and boating. She is a competitive swimmer and has played soccer the majority of her life.</p>
 
 - name: "Cindy"
   title: Office Financial Coordinator
