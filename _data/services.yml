@@ -16,11 +16,25 @@
 
 - name: Crowns
   summary: |
-    <p>Crowns can be made from porcelain, porcelain fused to metal, or a full gold crown. To maintain a natural look and feel a porcelain finished crown is best, as it can be matched to the shade of your other teeth. This will allow it to blend in and appear just like one of your natural teeth.</p>
+    <p>Crowns can be made from porcelain, porcelain fused to metal, or a full gold crown. To maintain a natural look and feel a porcelain finished crown is best, as it can be matched to the shade of your other teeth. This will allow it to blend in and appear just like one of your natural teeth. We're proud that all of our crown manufacturing and laboratory work are done within the State of Florida.</p>
   detail: |
     <p>Over time our teeth begin to weaken and become more susceptible to problems such as decay, cracks, discoloration and others. If you feel your smile isn't what it once was, crowns can help you recover your smile. If your dentist notices that a tooth is decayed or seems weakened/cracked a crown may be necessary to make sure that there are no additional problems with the tooth. In cases like this a filling or bonding will not be sufficient.</p>
     <p>The process of installing a crown takes 2-3 visits to the dentist. On the first visit the tooth will be reshaped by filing down the enamel so that the crown can be placed over it. You will be given a local anesthetic before this part of the procedure so that you do not experience any discomfort. Once the tooth has been reshaped, an image is taken of the area which is sent through the internet to our lab in Clearwater, FL. The restorations are prepared using lasers, CAD/CAM technology and traditional porcelain techniques to design a crown that fits precisely with very minimal adjusting when cementing the product into the existing prepared area. The imaging system does not produce any radiation or cause any harmful effects to your mouth or body. For more information on this imaging technology, visit <a href="http://www.itero.com" target="_blank">www.itero.com</a>. Before leaving, the dentist will fit you with a temporary crown until your permanent crown is ready.</p>
     <p>The crown takes about 2-3 weeks to be returned to us. At this time you will have another appointment to place and fit the permanent crown. You will again have a local anesthetic to numb the area and the tooth will be placed using a cement to ensure the tooth sets in place. When you look in the mirror, you will see your old smile back. Crowns are durable and will usually last about 10-15 years. You should care for it as you would any of your other teeth with regular brushing and flossing. Call us today if you would like to learn more about how crowns can help restore your smile.</p>
+
+- name: Invisalign
+  summary: |
+    <p>Invisalign aligners are the clear alternative to metal braces for adults, kids and teens. These clear aligners are the virtually invisible way to improve your smile.</p>
+
+- name: Oral Surgery
+  summary: |
+    <p>In-office surgery including wisdom teeth extractions, biopsies, bone replacement, and placement of dental implants.</p>
+
+- name: Whitening and Bleaching
+  summary: |
+    <p>Keeping our teeth their whitest is a lot harder than it sounds. Teeth whitening is an excellent way to restore the natural color of your teeth, or even make them whiter if you desire.</p>
+  detail: |
+    <p>To accomplish the whitening of your teeth, we utilize a tray whitening system. This tray whitening system is completed in 2 steps. The first step is to make an impression of your teeth. With this impression, we'll craft you custom whitening trays that you can use over and over. Finally, you will take the whitening gel and put it in the gel for a short period of time over a period of a few days. This often results in a whiter smile of 4-8 shades!</p>
 
 - name: Crown Lengthening
   summary: |
@@ -43,7 +57,7 @@
     <p>Once the implants are secured, the dentist will attach a handcrafted, permanent crown to each post. The restorations will match your natural teeth and blend seamlessly with your smile.</p>
     <p>By imitating an entire natural tooth, from the root up, dental implants offer a prosthetic that closely mimics nature. The result? Dental implant patients enjoy restored function, which allows a healthy diet of hard-to-chew foods. Speech may also improve. Strong and secure, your new smile will boost your confidence, enhance your appearance, and improve your quality of life.</p>
 
-- name: "Dental Hygiene"
+- name: Dental Hygiene
   summary: |
     <p>While at our office, we make sure you receive the highest level of service and ensure our dental work is of the highest quality. To ensure you maintain great oral health, your personal oral hygiene routine needs this same level of quality. We help you establish a dental hygiene routine to keep your teeth healthy and white.</p>
   detail: |
@@ -61,10 +75,4 @@
     <p>Often there is plaque and tartar that accumulates below the gum line. In this scenario, we will clean and smooth this area with special instruments to ensure that the area is completely spotless.</p>
   detail: |
     <p>If this area is not kept clean the entire area can become irritated with the bacteria that resides in the tartar and plaque. It's very important to have your dentist check this area if you have bleeding during brushing.</p>
-
-- name: Whitening and Bleaching
-  summary: |
-    <p>Keeping our teeth their whitest is a lot harder than it sounds. Teeth whitening is an excellent way to restore the natural color of your teeth, or even make them whiter if you desire.</p>
-  detail: |
-    <p>To accomplish the whitening of your teeth, we utilize a tray whitening system. This tray whitening system is completed in 2 steps. The first step is to make an impression of your teeth. With this impression, we'll craft you custom whitening trays that you can use over and over. Finally, you will take the whitening gel and put it in the gel for a short period of time over a period of a few days. This often results in a whiter smile of 4-8 shades!</p>
 
