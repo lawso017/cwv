@@ -174,6 +174,12 @@ img.alignright + p {
   margin-top: 0px;
 }
 
+@media (max-width: 990px) {
+  img.full-width-sm {
+    width: 100%;
+  }
+}
+
 .p-lg {
   font-size: 1.1em;
   line-height: 180%;
