@@ -24,7 +24,9 @@
 
 - name: Invisalign
   summary: |
-    <p>Invisalign aligners are the clear alternative to metal braces for adults, kids and teens. The Invisalign System is the most advanced teeth straightening system available today. The treatment consists of custom made clear, comfortable, removable aligners. If you have always wanted straight teeth but haven't wanted wires and brackets, Invisalign could be the perfect solution.</p>
+    <p>Invisalign aligners are the clear alternative to metal braces for adults, kids and teens. If you have always wanted straight teeth but haven't wanted wires and brackets, Invisalign could be the perfect solution.</p>
+  detail: |
+    <p>The Invisalign System is the most advanced teeth straightening system available today. The treatment consists of custom made clear, comfortable, removable aligners. Over a period of time, the aligners guide your teeth into alignment without the inconvenience or appearance of braces.</p>
 
 - name: Oral Surgery
   summary: |
@@ -65,10 +67,9 @@
 
 - name: Oral Cancer Screenings
   summary: |
-    <p>Oral cancer screenings are a very important part of a dental visit. With advances in modern technology, we are now able to pinpoint the start of a potential problem much earlier in its evolution. The ability to do so is extremely important in being able to treat any concerns prior to their becoming a major irreversible problem.</p>
+    <p>Oral cancer screenings are a very important part of a dental visit. We are pleased to offer VELscope, a new innovative tool for oral cancer screening, that can detect oral cancer at its early stages. VELscope is a painless, noninvasive flourescent light that detects abnormalities in tissues. We are now able to pinpoint the start of a potential problem much earlier in its evolution.</p>
   detail: |
-    <p>The oral cancer screening is often completed with an ultraviolet light or similar device that allows us to view issues that can't always be detected by the human eye under normal conditions.</p>
-    <p>Certain lifestyle choices can have a great impact on the health of tissues and your overall health in the mouth. If you are a smoker or heavy drinker, make sure to get regular screenings when you visit the dentist.</p>
+    <p>Oral cancer is the eleventh leading cause of cancer mortality. Certain diseases and lifestyle choices have a great impact on your oral cancer risk. If you use tobacco in any form, drink alcohol regularly, are over the age of forty, or have a compromised immune system, make sure to get regular oral cancer screenings when you visit the dentist.</p>
 
 - name: Root Planing
   summary: |
