@@ -3329,7 +3329,7 @@ a.thumbnail.active {
 }
 
 .carousel-razon .carousel-img-wrap {
-  display: table-row;
+  display: block;
 }
 
 .carousel-razon .carousel-img {
@@ -3388,8 +3388,7 @@ a.thumbnail.active {
   font-size: 1.4em;
   margin-bottom: 10px;
   overflow: hidden;
-
-
+  line-height: 1.4em;
 }
 
 
@@ -3497,7 +3496,6 @@ a.thumbnail.active {
 
   .carousel-list li {
     font-size: 1.2em;
-    line-height: 1em;
     margin-bottom: 4px;
   }
 
