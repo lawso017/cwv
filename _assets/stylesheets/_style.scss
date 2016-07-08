@@ -6331,15 +6331,17 @@ a.feature-icon {
   float: left;
   overflow: hidden;
   margin-top: 15px;
-  padding-left: 85px;
+  margin-bottom: 10px;
   background-image: url("#{$img-path}/#{$dir-logo}/logo-big.png");
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left bottom;
 }
 
 .header-full-title h1 {
-  margin-bottom: 5px;
-  margin-top: 15px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 0;
   font-family: "Vollkorn", serif;
   color: #000;
   font-size: 32px;
@@ -6356,9 +6358,10 @@ a.feature-icon {
 }
 
 .header-full-title p {
-  margin-bottom: 15px;
   font-size: 1.2em;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .top-nav {
